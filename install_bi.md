@@ -5,7 +5,7 @@ The migration utilities install components into both Series 7 as well as BI v10.
 ## Create DB2 Database
 Since Tivoli Directory server required DB2 you may as well also use it for the Content Store. 
 
-1. Download a copy of the DDL
+1. Download a copy of the [DDL](createCS.sql)
 2. Edit the file if necessary to add grants if not using db2admin
 3. Log on as db2admin
 4. Open a *DB2 Command Window - Administrator* from the start menu
