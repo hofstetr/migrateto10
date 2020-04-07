@@ -48,6 +48,15 @@ Download **IBM Tivoli Directory Server 6.3 Client-Server with entitlement (zip f
 3. Click the Create an instance and create a new default instance
 4. Make sure to start the server as well
 
+**Also:** To have the service start automatically you have to add a dependency on the Tivoli Directory Server so that it doesn't start before the database instance does.
+
+1. Open Serivces and change *IBM Tivoli Directory Server Instance V6.3 - dsrdbm01* to start automatically
+2. Make node of the Service Name
+3. Find the *DB2 - DB2COPY1 - DSRDBM01* and make note of that Service Name which should be DSRDBM01
+4. Open an Administrator Command Prompt
+5. Run *sc config idsslapd-dsrdbm01 depend= "DSRDBM01"*
+6. Review the dependencies tab on the Tivoli Directory service to ensure it has been added
+
 ## Installing Impromptu Administrator
 The rest should be familiar and relatively easy.
 
