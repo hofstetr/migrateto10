@@ -66,8 +66,9 @@ There are really only two major configuration items to be done: DB2 content stor
 15. Supply default for the Namespace name
 16. Click on Cognos underneath Authentication
 17. Change Allow anonymous access? to False
-18. Click Save
-19. Click Start
+18. Click on Environment and change Gateway URI to http://localhost:9300/p2pd/servlet/dispatch
+19. Click Save
+20. Click Start
 
 **Note:** Ignore the error about the mail server since we did not bother to configure that.
 
