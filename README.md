@@ -12,3 +12,8 @@ There are several steps to implement an internal environment on a Windows 10 vir
 1. Install [Cognos Series 7 Impromptu Administrator](install_impromptua.md)
 2. Install [Cognos Business Intelligence v10.1.1](install_bi.md)
 3. Install [Migration Tools](install_mig.md)
+
+## Migration Process
+TBD
+
+[Migration Example](sample_mig.md)
